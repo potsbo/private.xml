@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<root>
+    <!-- If ModifierFlag::FN is pressed, retain keys to convert Fn+jkl to 123 (numpad) -->
+    <!--<modifier_not>ModifierFlag::FN</modifier_not>-->
+    <!-- Q-\ -->
+    <autogen>__KeyToKey__ KeyCode::Q, KeyCode::KEY_5</autogen>
+    <autogen>__KeyToKey__ KeyCode::W, KeyCode::KEY_6</autogen>
+    <autogen>__KeyToKey__ KeyCode::E, KeyCode::Q</autogen>
+    <autogen>__KeyToKey__ KeyCode::R, KeyCode::DOT</autogen>
+    <autogen>__KeyToKey__ KeyCode::T, KeyCode::O</autogen>
+    <autogen>__KeyToKey__ KeyCode::Y, KeyCode::R</autogen>
+    <autogen>__KeyToKey__ KeyCode::U, KeyCode::S</autogen>
+    <autogen>__KeyToKey__ KeyCode::I, KeyCode::U</autogen>
+    <autogen>__KeyToKey__ KeyCode::O, KeyCode::Y</autogen>
+    <autogen>__KeyToKey__ KeyCode::P, KeyCode::B</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_LEFT, KeyCode::SEMICOLON</autogen>
+    <autogen>__KeyToKey__ KeyCode::BRACKET_RIGHT, KeyCode::EQUAL</autogen>
+    
+    <!-- A-' -->
+    <autogen>__KeyToKey__ KeyCode::A, KeyCode::KEY_7</autogen>
+    <autogen>__KeyToKey__ KeyCode::S, KeyCode::KEY_8</autogen>
+    <autogen>__KeyToKey__ KeyCode::D, KeyCode::Z</autogen>
+    <autogen>__KeyToKey__ KeyCode::F, KeyCode::A</autogen>
+    <autogen>__KeyToKey__ KeyCode::G, KeyCode::E</autogen>
+    <autogen>__KeyToKey__ KeyCode::H, KeyCode::H</autogen>
+    <autogen>__KeyToKey__ KeyCode::J, KeyCode::T</autogen>
+    <autogen>__KeyToKey__ KeyCode::K, KeyCode::D</autogen>
+    <autogen>__KeyToKey__ KeyCode::L, KeyCode::C</autogen>
+    <autogen>__KeyToKey__ KeyCode::SEMICOLON, KeyCode::K</autogen>
+    <autogen>__KeyToKey__ KeyCode::QUOTE, KeyCode::MINUS</autogen>
+    
+    <!-- Z-/ -->
+    <autogen>__KeyToKey__ KeyCode::Z, KeyCode::KEY_9</autogen>
+    <autogen>__KeyToKey__ KeyCode::X, KeyCode::KEY_0</autogen>
+    <autogen>__KeyToKey__ KeyCode::C, KeyCode::X</autogen>
+    <autogen>__KeyToKey__ KeyCode::V, KeyCode::COMMA</autogen>
+    <autogen>__KeyToKey__ KeyCode::B, KeyCode::I</autogen>
+    <autogen>__KeyToKey__ KeyCode::N, KeyCode::N</autogen>
+    <autogen>__KeyToKey__ KeyCode::M, KeyCode::W</autogen>
+    <autogen>__KeyToKey__ KeyCode::COMMA, KeyCode::V</autogen>
+    <autogen>__KeyToKey__ KeyCode::DOT, KeyCode::G</autogen>
+    <autogen>__KeyToKey__ KeyCode::SLASH, KeyCode::QUOTE</autogen>
+    
+    <!-- 1-= -->
+    <autogen>__KeyToKey__ KeyCode::KEY_5, KeyCode::J</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_6, KeyCode::L</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_7, KeyCode::M</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_8, KeyCode::F</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_9, KeyCode::P</autogen>
+    <autogen>__KeyToKey__ KeyCode::KEY_0, KeyCode::SLASH</autogen>
+    <autogen>__KeyToKey__ KeyCode::MINUS, KeyCode::BRACKET_LEFT</autogen>
+    <autogen>__KeyToKey__ KeyCode::EQUAL, KeyCode::BRACKET_RIGHT</autogen>
+
+</root>
